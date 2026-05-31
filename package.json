@@ -1,9 +1,12 @@
 {
+  "homepage": "https://ahm-mrk-3570.github.io/js-filteriable-list",
   "name": "mycontacts",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "vite build",
+    "deploy": "gh-pages -D dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
